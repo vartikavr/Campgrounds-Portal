@@ -18,11 +18,11 @@ main h1{
     font-size:5rem;
 }
 
-main a{
+/*main a{
     width: 25%;
     height: 50px;
     font-size: 0.5rem;
-}
+}*/
 .cover-container{
     max-width: 60vw;
 }
