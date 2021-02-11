@@ -10,11 +10,12 @@ body{
 
 .lead{
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
 }
 
 main h1{
     font-family: 'Jomhuria', cursive;
-    font-size:5rem
+    font-size:4rem
 }
 
 .cover-container{
