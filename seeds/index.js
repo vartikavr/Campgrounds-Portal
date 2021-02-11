@@ -36,7 +36,7 @@ const seedDb= async ()=>{
                 "type" : "Point", 
                 "coordinates" : [ cities[random1000].lng, cities[random1000].lat ] 
             },
-            author: '60135b7851d50a399c78aa99',
+            author: '60253369875ecf0015b7f152',
             images: [
                 {
                     url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1612255811/YelpCamp/g5zfsrzhmmlzk1h1dowm.jpg',
