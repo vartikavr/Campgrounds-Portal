@@ -19,9 +19,9 @@ main h1{
 }
 
 main a{
-    width: 50%;
-    height: 10px;
-    font-size: smaller;
+    width: 25%;
+    height: 50px;
+    font-size: 0.5rem;
 }
 .cover-container{
     max-width: 60vw;
