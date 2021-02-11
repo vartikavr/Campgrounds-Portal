@@ -21,6 +21,7 @@ main h1{
 main a{
     width: 50%;
     height: 10px;
+    font-size: smaller;
 }
 .cover-container{
     max-width: 60vw;
