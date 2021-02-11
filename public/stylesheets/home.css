@@ -10,17 +10,17 @@ body{
 
 .lead{
     font-family: 'Roboto', sans-serif;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 main h1{
     font-family: 'Jomhuria', cursive;
-    font-size:4rem;
+    font-size:5rem;
 }
 
 main a{
-    width: 100%;
-    height: 2px;
+    width: 50%;
+    height: 10px;
 }
 .cover-container{
     max-width: 60vw;
