@@ -26,14 +26,6 @@ main h1{
 
 .cover-container{
     max-width: 60vw;
-    position: relative;
-}
-
-.cover-container main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .nav-link{
