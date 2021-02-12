@@ -26,7 +26,7 @@ main h1{
 
 .cover-container{
     position: relative;
-    transform: translateX(25%) translateY(50%);
+    transform: translateY(50%);
     max-width: 60vw;
 } 
 
