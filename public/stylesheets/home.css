@@ -11,6 +11,7 @@ body{
 .lead{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    text-align: center;
 }
 
 main h1{
@@ -20,7 +21,7 @@ main h1{
 
 .lead a{
     display:block;
-    width: 50%;
+    width: 75%;
     font-size: smaller;
 }
 
