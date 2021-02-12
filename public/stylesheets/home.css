@@ -25,6 +25,7 @@ main h1{
 }
 
 .cover-container{
+    margin: auto;
     max-width: 60vw;
 }
 
