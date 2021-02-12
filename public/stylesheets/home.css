@@ -37,7 +37,7 @@ main h1{
     color: rgba(255,255,255,0.8);
     margin-left: 1rem;
     border-bottom: 0.25rem solid transparent;
-    width: 10px;
+    width: 50px;
 }
 
 .nav-link:hover{
