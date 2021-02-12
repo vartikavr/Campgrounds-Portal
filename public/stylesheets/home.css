@@ -26,13 +26,10 @@ main h1{
 
 .cover-container{
     position: relative;
-    transform: translateY(40%);
+    transform: translateY(30%);
     max-width: 60vw;
 } 
 
-.footer{
-    transform: translateY(500px);
-}
 
 .nav-link{
     padding: 0.25rem 0;
