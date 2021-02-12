@@ -28,6 +28,10 @@ main h1{
     max-width: 60vw;
 }
 
+.main{
+    margin: auto;
+} 
+
 .nav-link{
     padding: 0.25rem 0;
     font-weight: 700;
