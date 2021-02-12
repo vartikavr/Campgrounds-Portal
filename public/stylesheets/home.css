@@ -18,11 +18,10 @@ main h1{
     font-size:5rem;
 }
 
-/*main a{
-    width: 25%;
-    height: 50px;
-    font-size: 0.5rem;
-}*/
+.lead a{
+    display:block;
+}
+
 .cover-container{
     max-width: 60vw;
 }
