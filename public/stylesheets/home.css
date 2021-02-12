@@ -26,12 +26,16 @@ main h1{
 
 .cover-container{
     max-width: 60vw;
+    position: relative;
+    text-align: center;
+}
+
+.cover-container main{
     position: absolute;
     top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    left: 0;
+    right: 0;
+    margin-top: -9px;
 }
 
 .nav-link{
