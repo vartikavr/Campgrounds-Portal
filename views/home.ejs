@@ -10,12 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 </head>
+<style>
+    @media only screen and (max-width:768px){
+        .nav-masthead{
+            justify-content: start;
+        }
+    }
+</style>
 <body class="d-flex text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="mb-auto">
             <div>
                 <h3 class="float-md-start mb-0">YelpCamp</h3>
-                <nav class="nav nav-masthead justify-content-center float-md-end" style="align-content: space-around">
+                <nav class="nav nav-masthead justify-content-center float-md-end">
                     <a href="#" aria-current="page" class="nav-link active">Home</a>
                     <a href="/campgrounds" class="nav-link">Campgrounds</a>
                     <% if(!currentUser){ %> 
