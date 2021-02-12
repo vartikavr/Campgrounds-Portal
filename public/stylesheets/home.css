@@ -19,9 +19,8 @@ main h1{
     font-size:5rem;
 }
 
-.lead a{
-    display:block;
-    width: 75%;
+.viewLink a{
+    /*display:block;*/
     font-size: smaller;
 }
 
