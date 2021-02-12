@@ -25,7 +25,7 @@ main h1{
 }
 
 .cover-container{
-    position: fixed;
+    position: absolute;
     transform: translateY(35%);
     max-width: 60vw;
 } 
