@@ -30,6 +30,11 @@ main h1{
     max-width: 60vw;
 } 
 
+.footer{
+    position: relative;
+    transform: translateY(100%);
+}
+
 .nav-link{
     padding: 0.25rem 0;
     font-weight: 700;
