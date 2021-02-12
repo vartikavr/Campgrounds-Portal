@@ -25,12 +25,9 @@ main h1{
 }
 
 .cover-container{
+    position: relative;
     margin: auto;
     max-width: 60vw;
-}
-
-.main{
-    margin: auto;
 } 
 
 .nav-link{
