@@ -27,29 +27,84 @@ const seedDb= async ()=>{
     for(let i=0;i<200;i++){
         const random1000 = Math.floor(Math.random()*100);
         const price = Math.floor(Math.random()*20)+10;
-        const camp = new Campground({
-            location: `${cities[random1000].city}, ${cities[random1000].state}`,
-            title: `${sample(descriptors)} ${sample(places)}`,
-            description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in nesciunt placeat ipsum quisquam, consequatur rem hic temporibus debitis ad dolores molestiae dignissimos alias voluptatem asperiores totam, unde quod minus,Culpa, sequi hic. Amet consequatur, neque provident reiciendis officiis minima dignissimos quo deleniti dolore similique nesciunt magnam. Reiciendis modi ipsa architecto molestias, praesentium iusto et dignissimos optio vel perferendis odit.Saepe similique voluptatum natus consequuntur quos eius itaque, maxime molestiae ullam iusto aliquam voluptates laborum. Cum mollitia debitis, ratione officiis eius distinctio magni labore! Error, obcaecati. Obcaecati magni laudantium assumenda!',
-            price, //shorthand, no need to write price:price
-            geometry: { 
-                "type" : "Point", 
-                "coordinates" : [ cities[random1000].lng, cities[random1000].lat ] 
-            },
-            author: '60253369875ecf0015b7f152',
-            images: [
-                {
-                    url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1613113158/YelpCamp/soczcvowqnd7elzkbd1q.jpg',
-                    filename: 'YelpCamp/soczcvowqnd7elzkbd1q'
-                  },
-                  {
-                    url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1612422134/YelpCamp/mk3c1d9yazexk9s8bzdx.jpg',
-                    filename: 'YelpCamp/mk3c1d9yazexk9s8bzdx'
-                  }
-              
-            ]
-        })
-        await camp.save();
+        if(i%3 == 0){
+            const camp = new Campground({
+                location: `${cities[random1000].city}, ${cities[random1000].state}`,
+                title: `${sample(descriptors)} ${sample(places)}`,
+                description: `One of the coolest hangout places in ${cities[random1000].state}. Do visit us and create lifelong memories. We promise you'll leave here with truckloads of fun and memories and zero regrets.`,
+                price, //shorthand, no need to write price:price
+                geometry: { 
+                    "type" : "Point", 
+                    "coordinates" : [ cities[random1000].lng, cities[random1000].lat ] 
+                },
+                author: '60253369875ecf0015b7f152',
+                images: [
+                    {
+                        url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1626674512/YelpCamp/za0ikqxvix48gbo7b52b_cpqtgz.jpg',
+                        filename: 'YelpCamp/za0ikqxvix48gbo7b52b_cpqtgz'
+                    },
+                    {
+                        url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1626674507/YelpCamp/sm836waarko47s1q26s0_vujwc2.jpg',
+                        filename: 'YelpCamp/sm836waarko47s1q26s0_vujwc2'
+                    },
+                    {
+                        url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1626674512/YelpCamp/x0jcxgextlxmcj1u0lox_fnzwsj.jpg',
+                        filename: 'YelpCamp/x0jcxgextlxmcj1u0lox_fnzwsj'
+                    }
+                ]
+            })
+            await camp.save();
+        }
+        if(i%3 == 1){
+            const camp = new Campground({
+                location: `${cities[random1000].city}, ${cities[random1000].state}`,
+                title: `${sample(descriptors)} ${sample(places)}`,
+                description: `A visit to ${cities[random1000].city} won't be considered complete if our camp is not visited. Trusted by our customers for over 10 years now :)`,
+                price, //shorthand, no need to write price:price
+                geometry: { 
+                    "type" : "Point", 
+                    "coordinates" : [ cities[random1000].lng, cities[random1000].lat ] 
+                },
+                author: '60253369875ecf0015b7f152',
+                images: [
+                    {
+                        url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1626674513/YelpCamp/ww27k4oma2dkrutpp7pm_osbdod.jpg',
+                        filename: 'YelpCamp/ww27k4oma2dkrutpp7pm_osbdod'
+                    },
+                    {
+                        url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1626674491/YelpCamp/fuotugbsh4rgwfko8c2r_hxom6k.jpg',
+                        filename: 'YelpCamp/fuotugbsh4rgwfko8c2r_hxom6k'
+                    }
+                
+                ]
+            })
+            await camp.save();
+        }
+        if(i%3 ==2){
+            const camp = new Campground({
+                location: `${cities[random1000].city}, ${cities[random1000].state}`,
+                title: `${sample(descriptors)} ${sample(places)}`,
+                description: `The best camp in ${cities[random1000].city}! Considered the cleanest and most adventurous camp by many of our customers.`,
+                price, //shorthand, no need to write price:price
+                geometry: { 
+                    "type" : "Point", 
+                    "coordinates" : [ cities[random1000].lng, cities[random1000].lat ] 
+                },
+                author: '60253369875ecf0015b7f152',
+                images: [
+                    {
+                        url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1626674512/YelpCamp/aajywmx2kizjsbfsgfg6_qzk8s0.jpg',
+                        filename: 'YelpCamp/aajywmx2kizjsbfsgfg6_qzk8s0'
+                    },
+                    {
+                        url: 'https://res.cloudinary.com/dprrfrbev/image/upload/v1626674509/YelpCamp/kgscjt4snjopsyldx2d5_zofiox.jpg',
+                        filename: 'YelpCamp/kgscjt4snjopsyldx2d5_zofiox'
+                    }
+                
+                ]
+            })
+            await camp.save();
+        }
     }
 }
 
